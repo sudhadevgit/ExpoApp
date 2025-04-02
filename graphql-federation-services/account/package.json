@@ -1,0 +1,18 @@
+{
+  "name": "account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "account-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node account-service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.0.0",
+    "graphql": "^15.0.0",
+    "@apollo/federation": "^0.23.0"
+  }
+}
